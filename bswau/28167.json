@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28583504.html
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/18561947.html
+
+原标题：golang redis 热点 key 业务规避
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73227947.html
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51816969.html
+
+原标题：golang makefile 自动化构建脚本
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95957251.html
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06350281.html
+
+原标题：golang 系统设计灰度发布实现思路
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06917957.html
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/40805947.html
+
+原标题：golang 系统设计开源项目自动化 ci 配置示例
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/98037956.html
+
+原标题：golang 系统设计 grpc http2 多路复用讲解
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/18161405.html
+
+原标题：分页逻辑错误数据漏查修复
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/76039279.html
+
+原标题：golang redis pipeline 批量操作
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/14038068.html
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/20490694.html
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/62515139.html
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73849391.html
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39461391.html
+
+原标题：设计思考：分布式会话架构选型对比
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/30504036.html
+
+原标题：全平台系统环境变量配置
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51512039.html
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51457025.html
+
+原标题：Nginx 丢失请求头配置修正
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/48908081.html
+
+原标题：请求工具封装统一异常处理
+简介：golang go 模板执行错误捕获，捕获模板执行错误，防止模板错误直接返回空白页面。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/77190213.html
+
+原标题：golang kafka 核心概念分区副本
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/69125576.html
+
+原标题：golang prometheus counter gauge 使用
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/89231022.html
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95958461.html
+
+原标题：golang 数据库批量更新性能优化
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/62684957.html
+
+原标题：浏览器缓存强制刷新方案
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06945140.html
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17167350.html
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/25240291.html
+
+原标题：golang k8s configmap secret 配置
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/49783514.html
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/43705836.html
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/08279170.html
+
+原标题：golang aes 对称加密解密示例
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95930281.html
+
+原标题：golang 系统设计性能瓶颈定位完整方法论
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17139168.html
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/16027028.html
+
+原标题：golang 系统设计防重复提交实现
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28461402.html
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39291704.html
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/62614141.html
+
+原标题：空指针异常判空容错处理
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/05349281.html
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95947369.html
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17452404.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计 e2e 端到端测试简单落地思路
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/27269460.html
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39805849.html
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17169567.html
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/61603926.html
+
+原标题：手写简易 ORM 理解对象映射
+简介：golang 分布式锁 redis 实现，基于 Redis 实现 Go 分布式锁，解决多实例并发竞争资源问题。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/92917950.html
+
+原标题：golang docker 部署 mysql 注意事项
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/05169473.html
+
+原标题：golang 重试退避机制代码实现
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/47672815.html
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73790258.html
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/33513413.html
+
+原标题：golang minio 分片上传断点续传
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/79011336.html
+
+原标题：设计思考：系统幂等性整体架构层面保障
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/90481725.html
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/29279702.html
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/72803624.html
+
+原标题：Security：文件路径穿越漏洞完整防护
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/64945028.html
+
+原标题：快速入门简单签名校验实现思路
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/83834135.html
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51504028.html
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73039179.html
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28270595.html
+
+原标题：配置外部化线上部署防错误
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/29279503.html
+
+原标题：golang yaml 解析配置加载实操
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95048462.html
+
+原标题：超大数据集分页性能优化方案
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84230391.html
+
+原标题：从零编写简易 CLI 命令行工具
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/75340391.html
+
+原标题：golang 系统设计分布式任务调度
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06030368.html
+
+原标题：方案设计：统一错误处理架构全链路方案
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/05079404.html
+
+原标题：golang 系统设计限流服务架构讲解
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28270796.html
+
+原标题：前端打包产物体积压缩优化
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/30494020.html
+
+原标题：golang ip 限流黑名单实现方案
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51515826.html
+
+原标题：异步编程 Promise 执行流程解析
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95938371.html
+
+原标题：新手参与开源社区贡献指南
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/43794859.html
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/03139353.html
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/48463736.html
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84949181.html
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17289294.html
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/82513423.html
+
+原标题：实践：前后端时间格式统一规范落地实践
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/40122102.html
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/43379388.html
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73990358.html
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/36676598.html
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/58460460.html
+
+原标题：Git 标签版本标记发布管理
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/40683625.html
+
+三、实战开发｜Practice
+原标题：golang cpu pprof 性能分析实操
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/60990031.html
+
+原标题：golang k8s rbac 权限控制配置示例
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/23474463.html
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/01123576.html
+
+原标题：golang kafka 同步异步消费对比
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/35451424.html
+
+原标题：数据库连接池参数调优
+简介：GC 垃圾回收优化降低 CPU 占用，调整 GC 参数，优化对象创建销毁，降低垃圾回收带来 CPU 开销。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/36709980.html
+
+原标题：架构笔记：OAuth2授权服务架构模式拆解
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17581701.html
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/03724038.html
+
+原标题：手写简易 ORM 理解对象映射
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/16167179.html
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95858459.html
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/73784714.html
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/94837256.html
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17058352.html
+
+原标题：空指针异常判空容错处理
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06040279.html
+
+原标题：实践：Git工作流主干开发团队协作实践
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/06918027.html
+
+原标题：分布式 ID 全局唯一生成方案
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39347368.html
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/30380602.html
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/40351502.html
+
+原标题：提交第一个开源 PR 完整流程
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84803514.html
+
+原标题：golang 系统设计防爬虫简单策略
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/27217945.html
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/58373513.html
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51452461.html
+
+原标题：坑点：Git仓库过大，clone速度极慢解决方案
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28338062.html
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/40462468.html
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/85858462.html
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/17128039.html
+
+原标题：golang 分布式 ID 雪花算法实现
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84626136.html
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28229168.html
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/83795797.html
+
+原标题：本地简易配置中心动态管理
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/54895035.html
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/92165670.html
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/13632908.html
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28088575.html
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39173243.html
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/81203113.html
+
+原标题：CI 持续集成自动构建流程
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/90900000.html
+
+原标题：WSL 文件权限访问异常修复
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/23787080.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/05947361.html
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/83724025.html
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/81892692.html
+
+原标题：分布式 ID 生成器高并发实现
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/37179570.html
+
+四、架构设计｜Architecture
+原标题：Architecture：服务注册发现架构原理与选型
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/39684747.html
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/36935258.html
+
+原标题：接口请求重试容错机制实现
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/63447925.html
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/19182221.html
+
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/19200334.html
+
+原标题：消息消费重试次数限制防爆炸
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95835248.html
+
+原标题：手写简易 RPC 服务通信原型
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84790581.html
+
+原标题：golang consul 服务发现简单示例
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/14024035.html
+
+原标题：golang 系统设计日志本地打印线上关闭调试信息
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/95946148.html
+
+原标题：golang redis 过期策略内存淘汰
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/38579470.html
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/74028061.html
+
+原标题：数据库分表存储大表优化方案
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/84835959.html
+
+原标题：golang 系统设计内部服务熔断降级配置思路
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/04897907.html
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/52623737.html
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/83735369.html
+
+原标题：golang 系统设计日志脱敏敏感字段过滤处理
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/07468082.html
+
+原标题：数据库分表存储大表优化方案
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/28247949.html
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.gflyq.cn/jrmbr/51522515.html
+
+?
