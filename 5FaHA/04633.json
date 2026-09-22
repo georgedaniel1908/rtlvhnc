@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：GET POST 接口请求参数处理
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17943966.html
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/97509744.html
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/71205520.html
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/19044406.html
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/86043307.html
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/94828851.html
+
+原标题：实战项目：HTTPS本地自签名证书配置实践
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/07072265.html
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/48173065.html
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/33986535.html
+
+原标题：golang traceId spanId 传递方案
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/47976976.html
+
+原标题：golang mysql innodb 事务隔离级别
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/56746412.html
+
+原标题：golang docker 部署 prometheus 整套
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/07064295.html
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/47207283.html
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：golang go 运行时获取编译信息，程序内部读取编译时间 git 版本，接口输出程序版本信息。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/81989744.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/02560467.html
+
+原标题：golang 内存缓存简单实现方案
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/41578889.html
+
+原标题：安全复盘：Redis未授权访问漏洞防护
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/80444568.html
+
+原标题：零基础理解模块化与组件化基础思想
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/27890244.html
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/38700466.html
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/61526485.html
+
+原标题：golang 系统设计数据库死锁分析规避
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/81233556.html
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/79136912.html
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/78193052.html
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/45801113.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/41106318.html
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/73439863.html
+
+原标题：开发环境变量配置全平台教程
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/29762851.html
+
+原标题：前端骨架屏提升页面体验
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/76609622.html
+
+原标题：接口签名校验防篡改实现
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/75517398.html
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：Fork 开源项目同步上游代码，Fork 开源仓库之后，配置上游源，同步官方最新代码，保持代码版本对齐。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/14865439.html
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/29168732.html
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/92207853.html
+
+原标题：golang docker 容器资源限制设置
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/29741984.html
+
+原标题：golang 项目环境变量加载方案
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/50596651.html
+
+原标题：业务幂等键设计防重复逻辑
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/96654898.html
+
+原标题：SourceMap 生成线上报错定位
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/04707332.html
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/27175274.html
+
+原标题：golang es 分词器选型业务适配
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/97832230.html
+
+原标题：日志敏感信息脱敏泄露防护
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/61589843.html
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/67923287.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计数据库迁移工具 go‑migrate 实操
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/26723998.html
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/01519621.html
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/50287518.html
+
+原标题：HelloTest：理解集成测试基础编写思路
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/47174288.html
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/07065186.html
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/59065418.html
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17940852.html
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/84418228.html
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/47397229.html
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/73733994.html
+
+原标题：性能复盘：接口响应从800ms优化到50ms全过程
+简介：golang errgroup 协程组错误处理，errgroup 捕获协程错误，context 取消剩余协程，简化并发任务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/93421076.html
+
+原标题：golang 协程泄露问题排查方法
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/92677521.html
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/74386332.html
+
+原标题：快速入门对象存储基础使用场景
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/72318631.html
+
+原标题：避坑：Spring事务传播行为理解错误事务失效
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/59085820.html
+
+原标题：批量操作分批处理防止 OOM
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/58157893.html
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/24770224.html
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/61457899.html
+
+原标题：golang toml 配置文件解析教程
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/61445699.html
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/30785746.html
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/51402800.html
+
+原标题：项目实践：搭建个人API网关最小实现版本
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/05949130.html
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/13557246.html
+
+原标题：方案设计：统一错误处理架构全链路方案
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/38570684.html
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/24139178.html
+
+原标题：AI‑Dev：利用AI快速阅读陌生开源项目源码
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/28561705.html
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/61472809.html
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62625039.html
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/63502683.html
+
+原标题：设计思考：大促系统架构压测改造整体思路
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/91589258.html
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/05971467.html
+
+原标题：golang 分布式锁防死锁处理
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62460937.html
+
+原标题：Architecture：大文件上传下载系统架构设计
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/33789237.html
+
+原标题：请求重试组件退避策略实现
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/81670479.html
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/14891350.html
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/42458037.html
+
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/69347926.html
+
+原标题：vite 插件开发自定义构建逻辑
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/05024792.html
+
+原标题：不必要字符转义关闭业务异常
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/21582404.html
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06049204.html
+
+三、实战开发｜Practice
+原标题：静态博客部署 GitHub Pages 教程
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/73613907.html
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/29271515.html
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/18561495.html
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06050392.html
+
+原标题：golang proto 默认值坑点梳理
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17461393.html
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/39380708.html
+
+原标题：golang redis 集群 hash 槽讲解
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62622826.html
+
+原标题：Fork 开源项目同步上游代码
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17068462.html
+
+原标题：golang mysql limit 大分页优化
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/94238482.html
+
+原标题：新手参与开源社区贡献指南
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62927060.html
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/39249581.html
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/30796948.html
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17027958.html
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06916163.html
+
+原标题：golang redis 缓存雪崩完整处理
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/97271303.html
+
+原标题：golang 表单文件大小限制配置
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06046259.html
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/74057350.html
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/40917020.html
+
+原标题：实战：多版本SDK兼容业务改造实践
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/63713685.html
+
+原标题：容器资源限制防止宿主机过载
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/51512817.html
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/07170692.html
+
+原标题：API 接口调试与异常处理实战
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/50817959.html
+
+原标题：零基础理解模块化与组件化基础思想
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/03027260.html
+
+原标题：golang 系统设计日志脱敏防止信息泄露
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/72016958.html
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06461303.html
+
+原标题：golang mysql 读写分离简单实现
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/85929282.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/51167360.html
+
+原标题：golang mysql 联合索引最左匹配
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/19773114.html
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/92679248.html
+
+原标题：Hands‑on：简易短消息模板渲染组件实践
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06825702.html
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang redis pipeline 批量操作，使用 Redis Pipeline 批量执行多条命令，减少网络往返，提升批量操作性能。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/47558144.html
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/39247915.html
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/95610473.html
+
+原标题：golang minio 预签名 url 临时访问
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17235915.html
+
+原标题：文件编码统一随机乱码修复
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/04803579.html
+
+原标题：golang 系统设计并发控制协程池任务池实现
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/41269147.html
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62679425.html
+
+原标题：golang consul 健康检查服务注册
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/74882137.html
+
+原标题：golang 系统设计技术债务识别登记治理思路
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/52502807.html
+
+原标题：golang 系统设计消息队列解耦削峰
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/39683515.html
+
+四、架构设计｜Architecture
+原标题：golang 单例模式实现几种方式
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/30381404.html
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/36351414.html
+
+原标题：golang redis 缓存击穿防护实现
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/93792579.html
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/84802581.html
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/36125471.html
+
+原标题：golang 系统设计配置回滚版本历史记录实现
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/81571039.html
+
+原标题：零基础理解进程、线程基础概念区别
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/05912571.html
+
+原标题：golang redis 客户端业务使用
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17822461.html
+
+原标题：golang es 批量 bulk 操作性能调优
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/70458127.html
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/37347916.html
+
+原标题：golang gin 中间件执行顺序讲解
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/14351393.html
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/06161707.html
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/17161725.html
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/40492626.html
+
+原标题：DevOps：容器健康探针livenessreadiness配置
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/07069059.html
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/62919248.html
+
+原标题：nestjs 框架模块化项目搭建
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/96058171.html
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.nlgfo.cn/skism/81905059.html
+
+?
