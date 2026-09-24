@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang mysql exists in 性能对比
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：m.ek949a.asia/Article/details/8050583.sHtML
+
+原标题：golang 项目 makefile 脚本编写
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：m.ek949a.asia/Article/details/2645135.sHtML
+
+原标题：golang 系统设计全局异常处理器实现
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：m.ek949a.asia/Article/details/2826140.sHtML
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：m.ek949a.asia/Article/details/8451585.sHtML
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：m.ek949a.asia/Article/details/8483692.sHtML
+
+原标题：git rebase 整理提交历史实操
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：m.ek949a.asia/Article/details/5262473.sHtML
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：m.ek949a.asia/Article/details/5291829.sHtML
+
+原标题：golang mysql 联合索引最左匹配
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：m.ek949a.asia/Article/details/4150685.sHtML
+
+原标题：开发记录：长连接连接管理自动清理僵死连接
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：m.ek949a.asia/Article/details/0838171.sHtML
+
+原标题：踩坑记录：数值溢出造成业务ID错乱异常
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：m.ek949a.asia/Article/details/8525148.sHtML
+
+原标题：本地简易配置中心动态管理
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：m.ek949a.asia/Article/details/0814926.sHtML
+
+原标题：死信队列处理消息阻塞业务
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：m.ek949a.asia/Article/details/2523658.sHtML
+
+原标题：golang 系统信号信号量处理
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：m.ek949a.asia/Article/details/7002912.sHtML
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：m.ek949a.asia/Article/details/3158471.sHtML
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：m.ek949a.asia/Article/details/0716849.sHtML
+
+原标题：golang redis 缓存更新策略讲解
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：m.ek949a.asia/Article/details/9605844.sHtML
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：m.ek949a.asia/Article/details/6972516.sHtML
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：m.ek949a.asia/Article/details/6479361.sHtML
+
+原标题：线程调度优化减少上下文切换
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：m.ek949a.asia/Article/details/4167363.sHtML
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：m.ek949a.asia/Article/details/4261158.sHtML
+
+原标题：数据库读写分离性能优化
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：m.ek949a.asia/Article/details/6049038.sHtML
+
+原标题：热更新开发环境配置教程
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：m.ek949a.asia/Article/details/5059066.sHtML
+
+原标题：golang 系统设计数据库死锁分析规避
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：m.ek949a.asia/Article/details/1039061.sHtML
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：m.ek949a.asia/Article/details/7583518.sHtML
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：m.ek949a.asia/Article/details/0261258.sHtML
+
+原标题：golang 系统设计回调重试幂等完整处理
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：m.ek949a.asia/Article/details/8494616.sHtML
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：m.ek949a.asia/Article/details/0967363.sHtML
+
+原标题：快速入门WebSocket，实现简易双向通信demo
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：m.ek949a.asia/Article/details/7190472.sHtML
+
+原标题：Shell 运维脚本服务器效率提升
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：m.ek949a.asia/Article/details/2938060.sHtML
+
+原标题：CPU 亲和性配置负载均衡调度
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：m.ek949a.asia/Article/details/3040180.sHtML
+
+原标题：golang redis 发布订阅简单示例
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：m.ek949a.asia/Article/details/7415259.sHtML
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：m.ek949a.asia/Article/details/7372538.sHtML
+
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：m.ek949a.asia/Article/details/3949226.sHtML
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：m.ek949a.asia/Article/details/6377282.sHtML
+
+原标题：Hands‑on：静态资源CDN缓存控制头配置实践
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：m.ek949a.asia/Article/details/7488071.sHtML
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：m.ek949a.asia/Article/details/0312415.sHtML
+
+原标题：golang redis pipeline 原子性说明
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：m.ek949a.asia/Article/details/5270581.sHtML
+
+原标题：golang 系统设计错误码体系完整设计
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：m.ek949a.asia/Article/details/1727271.sHtML
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：golang 数据库 ORM 框架选型对比，gorm xorm sqlx 对比各 ORM 优缺点，根据业务场景选型。
+ | 原文链接：m.ek949a.asia/Article/details/7493816.sHtML
+
+原标题：golang 分布式锁防死锁处理
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：m.ek949a.asia/Article/details/2594627.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：架构笔记：分布式事务方案对比与业务取舍
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：m.ek949a.asia/Article/details/0768254.sHtML
+
+原标题：golang http 代理客户端配置
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：m.ek949a.asia/Article/details/2969362.sHtML
+
+原标题：golang go test 覆盖率统计实操
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：m.ek949a.asia/Article/details/4153404.sHtML
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：m.ek949a.asia/Article/details/9592735.sHtML
+
+原标题：golang mysql 时间类型选型避坑
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：m.ek949a.asia/Article/details/8389481.sHtML
+
+原标题：golang ci 流水线环境变量管理方案
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.ek949a.asia/Article/details/1491596.sHtML
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：golang redis 客户端业务使用，Go Redis 客户端对接，实现缓存、计数器，适配各类 Redis 业务场景。
+ | 原文链接：m.ek949a.asia/Article/details/8595760.sHtML
+
+原标题：极简方式搭建个人技术文档站点
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：m.ek949a.asia/Article/details/8052469.sHtML
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：m.ek949a.asia/Article/details/2047258.sHtML
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.ek949a.asia/Article/details/0728029.sHtML
+
+原标题：快速入门消息队列基础概念模型
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：m.ek949a.asia/Article/details/8487847.sHtML
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：m.ek949a.asia/Article/details/5048359.sHtML
+
+原标题：新手指南：如何读懂开源项目报错日志
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：m.ek949a.asia/Article/details/9316130.sHtML
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：m.ek949a.asia/Article/details/2930170.sHtML
+
+原标题：Performance：JSON序列化性能优化实践
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：m.ek949a.asia/Article/details/1816736.sHtML
+
+原标题：golang 系统设计容量评估简单方法论
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：m.ek949a.asia/Article/details/2945036.sHtML
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：m.ek949a.asia/Article/details/1380502.sHtML
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：m.ek949a.asia/Article/details/1859040.sHtML
+
+原标题：设计思考：分布式锁选型、风险、业务约束
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：m.ek949a.asia/Article/details/8495746.sHtML
+
+原标题：Git 分支切换合并删除完整操作
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：m.ek949a.asia/Article/details/3263474.sHtML
+
+原标题：CI 流水线超时时间延长配置
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：m.ek949a.asia/Article/details/0936150.sHtML
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：m.ek949a.asia/Article/details/5268270.sHtML
+
+原标题：golang docker 运行 etcd 本地测试
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：m.ek949a.asia/Article/details/5273405.sHtML
+
+原标题：消息队列消费堆积扩容处理
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：m.ek949a.asia/Article/details/6859068.sHtML
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：m.ek949a.asia/Article/details/5273514.sHtML
+
+原标题：版本升级服务启动失败处理
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：m.ek949a.asia/Article/details/9617958.sHtML
+
+原标题：golang http 代理客户端配置
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：m.ek949a.asia/Article/details/1306806.sHtML
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：m.ek949a.asia/Article/details/9191279.sHtML
+
+原标题：Nginx 丢失请求头配置修正
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：m.ek949a.asia/Article/details/5181695.sHtML
+
+原标题：golang redis 计数器防超卖示例
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：m.ek949a.asia/Article/details/9506848.sHtML
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：m.ek949a.asia/Article/details/0746737.sHtML
+
+原标题：Performance：避免循环查询N+1问题完整优化
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：m.ek949a.asia/Article/details/3507958.sHtML
+
+原标题：Hands‑on：简易跨进程通信demo开发实践
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：m.ek949a.asia/Article/details/6371604.sHtML
+
+原标题：react 状态管理方案选型对比
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：m.ek949a.asia/Article/details/9603818.sHtML
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.ek949a.asia/Article/details/8089469.sHtML
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：m.ek949a.asia/Article/details/0425928.sHtML
+
+原标题：golang 优雅处理数据库事务
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：m.ek949a.asia/Article/details/0602725.sHtML
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：m.ek949a.asia/Article/details/0606137.sHtML
+
+原标题：API 大版本不兼容平滑迁移
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：m.ek949a.asia/Article/details/9536859.sHtML
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：m.ek949a.asia/Article/details/1535030.sHtML
+
+三、实战开发｜Practice
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：m.ek949a.asia/Article/details/6371681.sHtML
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：m.ek949a.asia/Article/details/7370595.sHtML
+
+原标题：golang 令牌桶限流中间件 gin
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：m.ek949a.asia/Article/details/8592706.sHtML
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：m.ek949a.asia/Article/details/5854915.sHtML
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：m.ek949a.asia/Article/details/3040281.sHtML
+
+原标题：golang 系统设计容器健康检查设计思路
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：m.ek949a.asia/Article/details/7414920.sHtML
+
+原标题：golang 系统设计缓存空值防止缓存穿透实现
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：m.ek949a.asia/Article/details/8303818.sHtML
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：m.ek949a.asia/Article/details/8485738.sHtML
+
+原标题：golang 数据库连接泄露排查
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：m.ek949a.asia/Article/details/7492707.sHtML
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：m.ek949a.asia/Article/details/0607979.sHtML
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：m.ek949a.asia/Article/details/4141397.sHtML
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：m.ek949a.asia/Article/details/2825941.sHtML
+
+原标题：golang 系统设计告警分级 p0‑p3 定义处理流程
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：m.ek949a.asia/Article/details/3047251.sHtML
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：m.ek949a.asia/Article/details/6373425.sHtML
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：m.ek949a.asia/Article/details/4285625.sHtML
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：m.ek949a.asia/Article/details/5156858.sHtML
+
+原标题：golang 系统设计开源项目依赖版本升级维护
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：m.ek949a.asia/Article/details/5140282.sHtML
+
+原标题：golang k8s 基础概念 pod deployment
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：m.ek949a.asia/Article/details/0701735.sHtML
+
+原标题：golang docker 部署 kafka 本地调试
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：m.ek949a.asia/Article/details/1827058.sHtML
+
+原标题：记一次分库分表路由计算错误数据写入错误分片
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：m.ek949a.asia/Article/details/0717040.sHtML
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：m.ek949a.asia/Article/details/8159581.sHtML
+
+原标题：golang gorm 预加载关联查询优化
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：m.ek949a.asia/Article/details/1412735.sHtML
+
+原标题：golang k8s ingress‑nginx 配置 ssl 证书
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：m.ek949a.asia/Article/details/2598808.sHtML
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：m.ek949a.asia/Article/details/0343468.sHtML
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：m.ek949a.asia/Article/details/8123356.sHtML
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：m.ek949a.asia/Article/details/1890023.sHtML
+
+原标题：业务接口幂等完整落地案例
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：m.ek949a.asia/Article/details/3024793.sHtML
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：m.ek949a.asia/Article/details/3938353.sHtML
+
+原标题：快速上手简单性能监控指标查看
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：m.ek949a.asia/Article/details/8159248.sHtML
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：m.ek949a.asia/Article/details/7484959.sHtML
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：m.ek949a.asia/Article/details/6267359.sHtML
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：m.ek949a.asia/Article/details/3941359.sHtML
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：m.ek949a.asia/Article/details/9605738.sHtML
+
+原标题：前端打包产物体积压缩优化
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：m.ek949a.asia/Article/details/1849171.sHtML
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：m.ek949a.asia/Article/details/4716925.sHtML
+
+原标题：设计思考：系统容量评估架构前期估算思路
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：m.ek949a.asia/Article/details/5147360.sHtML
+
+原标题：golang excel 简单读写操作示例
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：m.ek949a.asia/Article/details/4382404.sHtML
+
+原标题：前端组件库按需加载性能优化
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：m.ek949a.asia/Article/details/8583615.sHtML
+
+原标题：hosts 配置本地回环访问修复
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.ek949a.asia/Article/details/2838151.sHtML
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：m.ek949a.asia/Article/details/3646140.sHtML
+
+四、架构设计｜Architecture
+原标题：开发记录：日志脱敏防止敏感信息输出实践
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.ek949a.asia/Article/details/8405795.sHtML
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：m.ek949a.asia/Article/details/4151403.sHtML
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：m.ek949a.asia/Article/details/9591706.sHtML
+
+原标题：golang redis pipeline 批量操作
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：m.ek949a.asia/Article/details/7491817.sHtML
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：m.ek949a.asia/Article/details/7480605.sHtML
+
+原标题：数据库连接池参数调优
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：m.ek949a.asia/Article/details/4183695.sHtML
+
+原标题：golang mysql 长连接短连接对比
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：m.ek949a.asia/Article/details/1717069.sHtML
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：m.ek949a.asia/Article/details/7413817.sHtML
+
+原标题：nodejs 流处理大文件不占内存
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：m.ek949a.asia/Article/details/6362514.sHtML
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：m.ek949a.asia/Article/details/3267358.sHtML
+
+原标题：避坑：Nginx配置错误导致请求丢失Header
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：m.ek949a.asia/Article/details/7461707.sHtML
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：m.ek949a.asia/Article/details/7491373.sHtML
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：m.ek949a.asia/Article/details/2535737.sHtML
+
+原标题：Git commit 钩子提交规范校验
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：m.ek949a.asia/Article/details/3646137.sHtML
+
+原标题：gitignore 文件编写过滤规则
+简介：pnpm 包管理工具实战避坑指南，使用 pnpm 管理项目依赖，梳理常见坑点，充分利用 pnpm 优势。
+ | 原文链接：m.ek949a.asia/Article/details/0606141.sHtML
+
+原标题：golang redis zset 延时队列实现
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：m.ek949a.asia/Article/details/5162403.sHtML
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：m.ek949a.asia/Article/details/2945039.sHtML
+
+原标题：静态资源 404 路径打包修复
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：m.ek949a.asia/Article/details/8480291.sHtML
+
+?
